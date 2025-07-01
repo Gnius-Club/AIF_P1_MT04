@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook-P1-TM04</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 4 1ro Primaria</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está diseñada para involucrar a los estudiantes de forma kinestésica y lúdica.</p>
+                <p>⏱️ Los tiempos son estimados para mantener el ritmo de la misión. ¡Sé flexible!</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+            
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión 4 ¡Llegando a mi Amigo! (Parte 2: El Programa del Guía)</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivo de Aprendizaje:</strong>
+                                    <ul>
+                                        <li>Que los estudiantes traduzcan la secuencia kinestésica creada previamente a una secuencia de bloques de movimiento en ScratchJr, añadiendo bloques de diálogo para crear una pequeña narrativa digital.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">⚡La Chispa de la Idea (Vibe Grupal)</strong></li>
+                                        <li><strong class="tactic-highlight">⚡El Plan en el Suelo (Algoritmo Kinestésico)</strong></li>
+                                        <li><strong class="tactic-highlight">⚡¡Yo Soy el Robot! (Simulación Humana)</strong></li>
+                                        <li><strong class="tactic-highlight">⚡Del Suelo a la Pantalla (Implementación Guiada)</strong></li>
+                                        <li><strong class="tactic-highlight">⚡Círculo de Creación (Reflexión y Cierre)</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Un proyecto en ScratchJr con un personaje y fondo, programado con una secuencia de bloques de movimiento y un bloque de diálogo final que crea una pequeña narrativa.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Tabletas/computadoras con la aplicación ScratchJr instalada</li>
+                                        <li>Proyector</li>
+                                        <li>Las tarjetas de flechas y el mapa de la sesión anterior como referencia visual</li>
+                                        <li>Tarjeta gigante con forma de bocadillo de diálogo</li>
+                                    </ul>
+                                    <strong>Preparación Previa:</strong>
+                                      <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Confirmar que el proyector funciona.</li>
+                                                <li>Verificar que las tabletas/computadoras estén listas y con la app ScratchJr funcionando.</li>
+                                                <li>Tener todos los materiales físicos (tarjetas de flechas, tarjeta de diálogo) preparados y a la mano.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                        <li><strong>Ejemplo Profesor:</strong> Tener listo un proyecto de ScratchJr con la animación finalizada para modelar el proceso o mostrar el resultado esperado.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: La Chispa de la Idea (Recordando la Vibe) ⏰ 1 minuto</h2>
+                <p>Conectar con la sesión anterior y presentar la nueva misión de añadir comunicación a la secuencia.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: ¡Dando Vida y Voz a Nuestro Plan!</h3>
+                            <p>Proyectar Diapositiva 2. Saludar a los alumnos, recordar el mapa de flechas y presentar la nueva misión con la vibe/idea del día.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Hola de nuevo, programadores y contadores de historias! ¿Recuerdan nuestro mapa y el plan de flechas que creamos para que los amigos se encontraran? ¡Fue un plan genial! Hoy vamos a hacer esa misma magia, pero en la pantalla de la computadora. Y no solo eso, ¡les daremos voz a nuestros personajes! Nuestra 'vibe', nuestra Idea del día es: '¡Vamos a darle vida a nuestro plan y hacer que nuestros personajes hablen!' ¿Listos para ser directores de su primera película animada?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: El Plan en el Suelo (Añadiendo Diálogo al Algoritmo) ⏰ 12 minutos</h2>
+                <p>Mejorar el algoritmo físico añadiendo una nueva instrucción de comunicación (diálogo) al final de la secuencia de movimiento.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Mejorando Nuestro Algoritmo ⏰ 8 minutos</h3>
+                            <p>Proyectar Diapositiva 3. Recrear la secuencia de flechas en el suelo y guiar a los niños para que añadan una instrucción de diálogo al final.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Recordemos nuestro plan! Aquí está nuestro mapa de flechas. (Recrea rápidamente la secuencia en el suelo con las tarjetas). Este era el algoritmo para el movimiento. Pero... ¿qué pasa cuando un amigo finalmente se encuentra con otro? ¡No se quedan callados, se saludan! Nuestro plan necesita una instrucción más, una regla nueva. ¿Qué creen que debería decir nuestro personaje cuando llegue a su amigo? (Anima a los niños a proponer frases como "¡Hola!", "¡Te encontré!", "¡Vamos a jugar!"). ¡'Te encontré' es una idea genial! Miren esta nueva tarjeta. (Muestra la tarjeta de bocadillo de diálogo). La pondremos al final de nuestro camino de flechas. ¡Perfecto!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: El Plan Completo: Movimiento y Comunicación ⏰ 4 minutos</h3>
+                            <p>Leer el nuevo algoritmo completo en voz alta para reforzar la idea de que se ha añadido un nuevo tipo de instrucción.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Ahora nuestro algoritmo está completo! Tiene una secuencia de movimientos y, al final, una secuencia de diálogo. Leámoslo juntos para que quede claro: Adelante, adelante, derecha... y al final... ¡decir 'Te encontré!'. Nuestro plan ahora no solo mueve al personaje, ¡también le dice qué comunicar! Es mucho más inteligente. ¿Creen que funcionará?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: ¡Yo Soy el Robot! (Simulación con Diálogo) ⏰ 5 minutos</h2>
+                <p>Verificar el algoritmo mejorado de forma kinestésica, asegurando que los niños entiendan la nueva secuencia completa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: La Simulación con Diálogo</h3>
+                            <p>Proyectar Diapositiva 4. Elegir un voluntario para actuar como "robot-explorador" y ejecutar la secuencia de movimiento y la acción de diálogo final.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Última prueba en el mundo real antes de ir a las computadoras! Necesito un 'robot-explorador' muy valiente. (Elige a un voluntario). Tu misión es seguir el mapa de flechas que creamos. Pero recuerda, ¡hay una nueva regla al final! (El voluntario sigue la secuencia de flechas en el suelo). ¡Perfecto, lo estás haciendo genial! ¡Ya casi llegas! Y ahora... ¿qué dice la última tarjeta? (El niño debe ver la tarjeta de diálogo y decir en voz alta: "¡Te encontré!"). ¡Fantástico! El plan es perfecto. Movimiento y comunicación. ¡Ahora, a la pantalla!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Del Suelo a la Pantalla (Implementación Guiada) ⏰ 17 minutos</h2>
+                <p>Guiar a los estudiantes para que traduzcan la secuencia física completa (movimiento + diálogo) a una secuencia de bloques en ScratchJr.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: ¡A las Computadoras! ⏰ 3 minutos</h3>
+                            <p>Realizar la transición del mundo físico al digital, dando instrucciones claras para abrir ScratchJr y preparar el escenario.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Excelente trabajo de simulación, equipo! Ahora viene la parte más emocionante. ¡Vamos a darle este mismo plan a la computadora! Abran ScratchJr en sus tabletas, elijan el personaje que más les guste y un fondo bonito. ¡Prepárense para programar su primera historia!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Traduciendo Nuestro Plan a Código ⏰ 10 minutos</h3>
+                            <p>Proyectar Diapositiva 5. Guiar a los alumnos, bloque por bloque, para que construyan la secuencia en ScratchJr, haciendo referencia constante a las tarjetas del suelo. El profesor proyecta su propia pantalla para modelar el proceso.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">(Proyectando la pantalla de ScratchJr). ¡Miren mi pantalla! Nuestro plan del suelo sigue aquí para ayudarnos. ¿Cuál es la primera regla para empezar cualquier programa? ¡La Bandera Verde! La arrastramos. Ahora, miremos nuestro plan. Primera tarjeta: Flecha Adelante. Busquemos el bloque azul de Flecha Adelante y lo conectamos. Segunda tarjeta: Otra Flecha Adelante. Ponemos otro bloque igual. Tercera tarjeta: Flecha a la Derecha... (continúa replicando la secuencia de movimiento). Y ahora, la parte final y más importante... ¡el saludo! Buscamos en los bloques morados de apariencia. Este con el bocadillo de diálogo es para hablar. Lo arrastramos al final de nuestra fila de bloques y escribimos '¡Te encontré!'. ¡Nuestro código está listo!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: ¡El Momento Mágico: La Animación! ⏰ 4 minutos</h3>
+                            <p>Indicar a los estudiantes que presionen la bandera verde para probar su programa y ver a su personaje moverse y hablar.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Han construido su primera secuencia con movimiento y diálogo. ¿Están listos para ver la magia? ¡Cuenten conmigo! Tres, dos, uno... ¡Presionen la Bandera Verde! ¡Miren! ¡Su personaje está siguiendo el plan al pie de la letra y al final dice su frase! ¡Lo lograron!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Círculo de Creación (Reflexión y Cierre) ⏰ 5 minutos</h2>
+                <p>Celebrar los logros y reforzar el concepto clave de combinar diferentes tipos de instrucciones para crear narrativas.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Galería de Mini-Películas y Reflexión ⏰ 3 minutos</h3>
+                            <p>Proyectar Diapositiva 6. Fomentar que los niños muestren sus animaciones y hacer una pregunta clave sobre los tipos de bloques utilizados.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Un aplauso gigante para todos! ¡Sus animaciones son fantásticas! Sus personajes siguieron su plan al pie de la letra. Pregunta para directores expertos: ¿Qué dos tipos de instrucciones diferentes usamos hoy en nuestro programa? (Guiar a que digan 'de movimiento' y 'de hablar/diálogo'). ¡Exacto! ¡Bloques azules para moverse y bloques morados para hablar! Combinando diferentes tipos de secuencias, podemos empezar a contar historias increíbles.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Cierre y Próxima Misión ⏰ 2 minutos</h3>
+                            <p>Felicitar a los estudiantes y adelantar lo que harán en la próxima clase.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Hoy no solo fueron programadores, ¡fueron directores de sus propias mini-películas! ¡Felicidades! Han aprendido a dar órdenes de movimiento y de comunicación. En la próxima misión, descubriremos un 'atajo mágico' que usan los programadores para no tener que repetir las mismas instrucciones una y otra vez. ¡Prepárense para un nuevo truco de programación!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
